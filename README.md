@@ -27,4 +27,4 @@ The architecture is structured as follows, depicted in the provided diagram:
 - **Azure Synapse Analytics**: For comprehensive analytics and business intelligence operations.
 
 ## Acknowledgments
-- I would like to thank Darshil Parmar for inspiring me to complete this project. 
+- Special shout-out to Darshil Parmar, whose inspiration was the catalyst for this project's successful completion. 
