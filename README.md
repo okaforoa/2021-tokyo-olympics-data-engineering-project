@@ -1,1 +1,41 @@
-# 2021-tokyo-olympics-data-engineering-project
+# Azure 2021 Tokyo Olympics Data Engineering Project
+
+## Project Overview
+This project was developed to construct a comprehensive data engineering pipeline focused on the 2021 Tokyo Olympics, aiming to provide deep insights and analytics from the event data. Utilizing Azure services for orchestration, storage, and analytics, alongside Databricks for data transformation, the solution handles data from ingestion to analysis, ensuring high data quality and accessibility for complex queries and reporting.
+
+## Solution Architecture
+The architecture is structured as follows, depicted in the provided diagram:
+- **Data Source**: GitHub hosts the originating Olympic data sets.
+- **Data Ingestion**: Data Factory orchestrates the ingestion of data from GitHub to the raw data storage.
+- **Raw Data Store**: Azure Blob Storage serves as the repository for raw data.
+- **Data Transformation**: Databricks processes the raw data, performing cleansing, aggregation, and preparation for analysis.
+- **Transformed Data Store**: The processed data is stored back into Azure Blob Storage, optimized for analytics.
+- **Analytics**: Azure Synapse Analytics is used to perform complex analytics and produce insights from the transformed data.
+
+## Objectives
+- To establish a resilient and scalable data pipeline capable of handling diverse Olympic data.
+- To transform raw Olympic data into an analyzable format, enabling complex analytical queries.
+- To uncover insights that can drive data-driven decisions for stakeholders interested in Olympic events.
+
+## Technologies Used
+- **GitHub**: For version control and data source management.
+- **Azure Data Factory**: For orchestrating and automating the data ingestion process.
+- **Azure Blob Storage**: For storing raw and processed data.
+- **Databricks**: For robust data transformation capabilities.
+- **Azure Synapse Analytics**: For comprehensive analytics and business intelligence operations.
+
+## Installation
+Instructions for setting up the Azure services, Databricks workspace, and other infrastructure requirements will be provided, allowing for replication and deployment of the data pipeline.
+
+## Usage
+Detailed documentation will guide users through executing the data pipeline, managing data flow, and leveraging Azure Synapse for analytics.
+
+## Contributing
+Contributors are welcome. Guidelines for contributing, including how to submit pull requests, and a code of conduct, will be detailed in this section.
+
+## License
+The project is made available under the MIT License. Full license text will be included in the LICENSE file.
+
+## Acknowledgments
+- The teams behind the Azure services and Databricks for their excellent documentation and support.
+- All contributors and data scientists who provided insights and feedback on the project.
