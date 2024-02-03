@@ -1,9 +1,11 @@
-# Azure 2021 Tokyo Olympics Data Engineering Project
+# 2021 Tokyo Olympics Azure Data Engineering Project
 
 ## Project Overview
 This project was developed to construct a comprehensive data engineering pipeline focused on the 2021 Tokyo Olympics, aiming to provide deep insights and analytics from the event data. Utilizing Azure services for orchestration, storage, and analytics, alongside Databricks for data transformation, the solution handles data from ingestion to analysis, ensuring high data quality and accessibility for complex queries and reporting.
 
 ## Solution Architecture
+![Data Engineer Project](https://github.com/okaforoa/2021-tokyo-olympics-data-engineering-project/blob/main/images/2021%20Tokyo%20Olympics%20Data%20Engineer%20Project.jpg)
+
 The architecture is structured as follows, depicted in the provided diagram:
 - **Data Source**: GitHub hosts the originating Olympic data sets.
 - **Data Ingestion**: Data Factory orchestrates the ingestion of data from GitHub to the raw data storage.
@@ -24,18 +26,5 @@ The architecture is structured as follows, depicted in the provided diagram:
 - **Databricks**: For robust data transformation capabilities.
 - **Azure Synapse Analytics**: For comprehensive analytics and business intelligence operations.
 
-## Installation
-Instructions for setting up the Azure services, Databricks workspace, and other infrastructure requirements will be provided, allowing for replication and deployment of the data pipeline.
-
-## Usage
-Detailed documentation will guide users through executing the data pipeline, managing data flow, and leveraging Azure Synapse for analytics.
-
-## Contributing
-Contributors are welcome. Guidelines for contributing, including how to submit pull requests, and a code of conduct, will be detailed in this section.
-
-## License
-The project is made available under the MIT License. Full license text will be included in the LICENSE file.
-
 ## Acknowledgments
-- The teams behind the Azure services and Databricks for their excellent documentation and support.
-- All contributors and data scientists who provided insights and feedback on the project.
+- I would like to thank Darshil Parmar for inspiring me to complete this project. 
